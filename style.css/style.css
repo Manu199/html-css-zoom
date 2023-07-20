@@ -72,6 +72,7 @@ div .user {
   margin-top: 10px;
   margin-left: 2px;
   overflow: hidden;
+  cursor: pointer;
 }
  
 .user {
@@ -110,7 +111,8 @@ div .icon {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-left: 10px;
+  margin-left: 20px;
+  cursor: pointer;
   
 }
 .fa-icon {
@@ -129,4 +131,16 @@ button.menu {
   color: rgb(255, 255, 255);
   margin-left: 5px;
   margin-right: 5px;
+}
+.end {
+  background-color: rgba(0255, 0255, 0255, 0.2);
+  width: fitcontent;
+  justify-content: center;
+  align-items: center;
+  
+  display:flex;
+}
+.end-meeting{
+  color:red;
+  margin: 10px;
 }
